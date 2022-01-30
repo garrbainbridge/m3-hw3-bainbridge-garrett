@@ -4,55 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet/less" type="text/css" href="styles.less">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <title>Homework 3</title>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#" class="last">Order Now</a></li>
+        </ul>
+    </nav>
+    <div class="container-fluid overlay" >
+        <div class="row header">
             <div class="col-lg-12">
-                <nav>
-                    <ul>
-                        <li>Home</li>
-                        <li>Menu</li>
-                        <li>About Us</li>
-                        <li>Order Now</li>
-                    </ul>
-                </nav>
+                <img src="img/logo.png" class="img-responsive center-block" alt="Bobs Burgers Logo">
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <button type="button">ORDER NOW</button>
+                </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-12">
-                <img src="img/logo.png" alt="Bobs Burgers Logo">
-                <button type="button">ORDER NOW</button>
-            </div>
-        </div>
-        <div class="row">
+    </div>
+    <div class="container-fluid">
+        <div class="row burger">
             <div class="col-lg-8">
-                <h1>Worlds Best Burger</h1>
+                <h1>WORLD'S BEST <span>BURGERS</span></h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quidem voluptate cupiditate tenetur modi porro corrupti, fuga omnis. Doloribus aliquam illo doloremque similique? Minima, doloremque doloribus quo non provident voluptatibus?</p>
                 <button type="button">VIEW MENU</button>
             </div>
-            <div class="col-lg-4">
-                <img src="img/burger.png" alt="Burger">
+            <div class="col-lg-4, burger-picture">
+                <img src="img/burger.png" class="img-responsive center-block" alt="Burger">
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-4">
-                <img src="img/bob.png" alt="Bob">
+    </div>
+    <div class="container-fluid bob">
+        <div class="row bob-middle">
+            <div class="col-lg-4 bob-picture">
+                <img src="img/bob.png" class="img-responsive center-block" alt="Bob">
             </div>
             <div class="col-lg-8">
-                <h2>DINE-IN or TAKE-OUT</h2>
+                <h2>DINE-IN or <span>TAKE-OUT</span></h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore modi fugiat totam esse exercitationem suscipit aperiam rem veniam quaerat dolorem nostrum aspernatur, distinctio voluptas dolore quia! Dolorum pariatur sed eum.</p>
                 <button type="button">CONTACT US</button>
             </div>
         </div>
+    </div>
+    <div class="container-fluid bottom">
         <div class="row">
             <div class="col-lg-12">
-                 <img src="img/logo.png" alt="Bobs Burgers Logo">
+                 <img src="img/logo.png" class="img-responsive center-block" alt="Bobs Burgers Logo">
             </div>
         </div>
     </div>
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/less@4.1.1" ></script>
 </body>
 </html>
